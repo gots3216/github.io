@@ -1,120 +1,524 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mitsuhiro GOTO Web site</title>
+		<meta name="description" content="A free HTML5/CSS3 template made exclusively for Codrops by Peter Finlan" />
+		<meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
+		<meta name="author" content="Peter Finlan" />
+		<!-- Bootstrap -->
+		<script src="js/modernizr.custom.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.css" rel="stylesheet">
+		<link href="css/flickity.css" rel="stylesheet" >
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/queries.css" rel="stylesheet">
+		<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- open/close -->
+		<header>
+			<section class="hero">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row nav-wrapper">
+						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
+							<a href="#"><img src="img/logo-white.png" alt="Boxify Logo"></a>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
+							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+						</div>
+					</div>
+					<div class="row hero-content">
+						<div class="col-md-12">
+							<h1 class="animated fadeInDown">Mitsuhiro Goto</h1>
+							<a href="http://wlgate.inf.uec.ac.jp/" class="use-btn animated fadeInUp">Kashihara Laboratory Web Page</a> <a href="#about" class="learn-btn animated fadeInUp">About me <i class="fa fa-arrow-down"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
 
-<html>
+		<section class="features-intro" id="about">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 nopadding features-intro-img">
+						<div class="features-bg">
+							<div class="texture-overlay"></div>
+							<div class="features-img wp1">
+								<!--<img src="img/html5-logo.png" alt="HTML5 Logo">-->
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="features-slider">
+								<ul class="slides" id="featuresSlider">
+									<li>
+										<h1>後藤 充裕（Mitsuhiro GOTO）</h1>
+										<p>電気通信大学 柏原研究室にて博士（工学）を取得．
 
-<head>
+											 専門分野は，インタラクションと学習工学<br>
+											 趣味はエスニック料理（作り＆食），ジャグリング，スキー<br>
+										</p>
+										<!--<p><a href="#features" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>-->
+									</li>
+                  <li>
+                    <h1>研究テーマ1：「対面と同質の体験を得るオンラインコミュニケーションに関する研究」</h1>
+                    <p> 様々なモダリティを活用して対面コミュニケーションで得ていた主観感覚をオンライン環境でも形成するためのコミュニケーション研究を進めています．<br>
+                    </p>
+                  </li>
+									<li>
+										<h1>研究テーマ2：「プレゼンテーションドキュメント学習に関する研究」</h1>
+										<p>世の中に多く流通するようになったプレゼンテーションドキュメントを利用して効果的に知識獲得を図るための学習支援について，モデル構築からシステム開発までを進めています．<br>
+										</p>
+									</li>
+                  <li>
+                    <h1>研究テーマ3：「人の動作に基づくロボットプレゼンテーションに関する研究」</h1>
+                    <p>コミュニケーションロボットによる分かりやすいプレゼンテーションを簡単にデザイン・設定するためのプレゼンテーションモデルやオーサリング環境について研究を進めています．<br>
+                    </p>
+                  </li>
+									<li>
+										<h1>経歴</h1>
+										<p>2007-09 学士＆修士＠柏原研究室<br>
+											 2010-12 NTTサービスエボリューション研究所に勤務<br>
+											 2013-16 NTTコムウェアに転籍<br>
+											 2015- 　会社勤務と並行して柏原研究室にて博士課程<br>
+											 2016- 　NTTサービスエボリューション研究所へ復帰<br>
+                       2021- 　NTT人間情報研究所所属<br>
+										</p>
 
-  <meta charset="UTF-8">
+									</li>
+                  <li>
+                      <h1>委員会</h1>
+                          <p>
+                              2022- 電子情報通信学会 メディアエクスペリエンス・バーチャル環境基礎研究会 (MVE) 幹事<br>
+                              2019-2021 電子情報通信学会 メディアエクスペリエンス・バーチャル環境基礎研究会 (MVE) 幹事補佐<br>
+                              2017-2018 情報処理学会 第26回 マルチメディア通信と分散処理(DPS)研究会 ワークショップ 実行委員<br>
+                              2016-現在 情報処理学会 マルチメディア通信と分散処理(DPS)研究会 論文誌特集号編集委員<br>
+                              2015-2018 情報処理学会 マルチメディア通信と分散処理(DPS)研究会 運営委員<br>
+                              2015-2016 情報処理学会 第22回 マルチメディア通信と分散処理(DPS)研究会 ワークショップ PC委員<br>
+                          </p>
 
-  <title>Mitsuhiro Goto</title>
+                  </li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <style>
+		<section class="video" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><a href="https://www.youtube.com/watch?v=CE7R_oMxhEo" class="youtube-media"><i class="fa fa-play-circle-o"></i> Watch my hobby video</a></h1>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    body {
+		<section class="features-list" id="publications">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
 
-      font-family: Arial, sans-serif;
+						<div class="col-md-12 feature-1 wp2">
 
-      max-width: 900px;
-
-      margin: 60px auto;
-
-      padding: 20px;
-
-      line-height: 1.7;
-
-      color: #222;
-
-    }
-
-    h1 {
-
-      font-size: 48px;
-
-      margin-bottom: 0;
-
-    }
-
-    .subtitle {
-
-      color: #666;
-
-      margin-top: 10px;
-
-      font-size: 20px;
-
-    }
-
-    h2 {
-
-      margin-top: 60px;
-
-      border-bottom: 1px solid #ddd;
-
-      padding-bottom: 10px;
-
-    }
-
-    ul {
-
-      padding-left: 20px;
-
-    }
-
-    a {
-
-      color: #0066cc;
-
-      text-decoration: none;
-
-    }
-
-  </style>
-
-</head>
-
-<body>
-
-<h1>Mitsuhiro Goto</h1>
-
-<p class="subtitle">
-
-Researcher in HCI, Robotics, and Embodied Intelligence
-
-</p>
-
-<p>
-
-Exploring remote bodily interaction, active perception,
-
-haptics, and human augmentation.
-
-</p>
-
-<h2>Research Themes</h2>
-
-<ul>
-
-  <li>Remote Communication</li>
+							<div class="feature-content">
+								<h1>Publications</h1>
 
 
-</ul>
+								<h2>受賞</h2>
+                <p><a href="https://sports-performance.jp/topic-1241/">第9回日本スポーツパフォーマンス学会大会　学会賞</a>
+                <br>対象となった研究発表:後藤充裕，江崎健司，井上照久，瀬下仁志，平野貴也, :ウインドサーフィンの身体感覚再現プレイヤーにおける筐体牽引力を増幅再現するデバイスの提案</p>
 
-<h2>Selected Publications</h2>
+                <p><a href="https://www.ieice.org/hcg/hcs/wp/?page_id=143">2022年度 HCS賞</a>
+                <br>対象となった研究発表:高山千尋, 後藤充裕, 永徳真一郎, 石井亮, 能登肇, 小澤史朗, 中村高雄:身体動作と個人識別との関係の分析：個性を持ったエージェントの実現に向けて</p>
 
-<p>
+                <p><a href="https://www.ieice.org/iss/ois/jpn/oiscomm.html#2022">2022年度 LOISグッドプレゼンテーション賞</a>
+                <br>対象となった研究発表: 内田総一郎, 後藤充裕，瀬下仁志:立体音響を活用したオンライン展示会における満足感・納得感の向上</p>
 
-Tele-Proxy Palpation, CHI 2026
+                <p><a href="https://www.ieice.org/~mve/award.html">2022年度 MVE賞</a>
+                <br>対象となった研究発表: 内田総一郎, 後藤充裕，瀬下仁志:オンラインコミュニケーションにおける立体音響を活用した満足感・納得感向上の検討</p>
 
-</p>
+                <p><a href="https://www.jsise.org/society/presentation/index.html">2021年度JSiSE学生研究発表会受賞者リスト</a>
+                <br>対象となった研究発表:梅津寛香, 後藤充裕, 柏原昭博 : スライドマップ構築支援とその評価, 2021年度教育システム情報学会学生研究発表会(関東地区), pp.57-58(2022.03.01).</p>
 
-<h2>Contact</h2>
+                <p><a href="http://humanrobotinteraction.org/2020/best-paper-awards/index.html">HRI2020 Best Late-Breaking Report Video Honourable Mentions (2020.06).</a>
+                <br>対象となった研究発表: M.Goto, M.Yokoyama, Y.Matsuura: Impression Evaluation of Presentation by a Communication Robot in an Actual Exhibition，HRI2020 Late-Breaking Reports(2020.03.24).
+                </p>
 
-<p>
+                <p><a href="https://www.jsise.org/society/presentation/index.html">2019年度JSiSE学生研究発表会受賞者リスト</a>
+                <br>対象となった研究発表: 菅原歩夢，後藤充裕，柏原昭博: 学習者状態に基づくインタラクティブなロボット講義システムとその評価，2019年度教育システム情報学会学生研究発表会(関東地区), pp.51-52 (2020.3.2).</p>
 
-<a href="https://github.com/gots3216">GitHub</a>
+                <p><a href="https://www.hcg-ieice.org/hcg-symposium/2019/award">HCGシンポジウム2019最優秀インタラクティブ発表賞(2019.12).</a>
+                <br>対象となった研究発表: 後藤充裕, 横山正典, 松浦由美子: コミュニケーションロボットを用いた展示会プレゼンテーション代行の検討，HCGシンポジウム2019 (2019.12.12).
+                </p>
+								<p><a href="https://www.jsise.org/taikai/2017/award.html" >教育システム情報学会第42回全国大会奨励賞(2017.08).</a>
+								<br>対象となった研究発表: 後藤充裕，柏原昭博 : Web 上のプレゼンテーションドキュメントを活用したスライド調べ学習，第42回教育システム情報学会全国大会予稿集，pp.389-390(2017.08).
+								</p>
+								<p><a href="https://wlgate.inf.uec.ac.jp/%e5%8f%97%e8%b3%9e/%e5%b7%9d%e5%90%88%e9%81%bc%e4%b9%9fm1%e3%83%bb%e5%be%8c%e8%97%a4%e5%85%85%e8%a3%95b4-%e6%95%99%e8%82%b2%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%83%85%e5%a0%b1%e5%ad%a6%e4%bc%9a%e5%ad%a6%e7%94%9f-2/" >教育システム情報学会学生・院生研究発表会優秀賞 (2008.03).</a>
+								<br>対象となった研究発表:  後藤充裕, 柏原昭博, 長谷川忍：研究ミーティングレビュー支援環境PodReviewの開発, 教育システム情報学会 学生・院生研究発表会論文集 (2008.3).</p>
 
-</p>
+								<h2>論文誌</h2>
+                <p>後藤充裕, 柏原昭博, プレゼンテーションドキュメント学習のためのスライド間の関係性の可視化, 教育システム情報学会誌Vol.39, No.3, pp. 343-356 (2022)</p>
+                <p> Tatsuya Ishino, Mitsuhiro Goto, and Akihiro Kashihara: Robot Lecture for Enhancing Presentation in Lecture, Research and Practice in Technology Enhanced Learning (RPTEL) 17,1, https://doi.org/10.1186/s41039-021-00176-6 (DOI: 10.1186/s41039-021-00176-6) (2022.01).</p>
+                <p>松元崇裕, 後藤充裕, 石井亮, 渡部智樹, 山田智広, 今井倫太, 複数ロボットとの位置関係がユーザの対話負荷に与える影響, 情報処理学会論文誌, Vol.60, No.2, pp340-353, 2019年2月</p>
+								<p>後藤充裕, 柏原昭博, 長谷川忍:研究ミーティングのためのポータブルレビュー支援システムの開発, 教育システム情報学会誌Vol.27, No.2, pp.199-210 (2010).</p>
 
-</body>
+								<h2>International Conference</h2>
+                <p>Umetsu, H., Goto, M., Kashihara, A. (2023). Supporting Presentation Document Creation Using Visualization of Logical Relationship Between Slides. In: Stephanidis, C., Antona, M., Ntoa, S., Salvendy, G. (eds) HCI International 2023 Posters. HCII 2023. Communications in Computer and Information Science, vol 1834. Springer, Cham.</p>
+                <p>Shimazaki, T., Sugawara, A., Goto, M., and Kashihara, A. (2022). An Interactive Robot Lecture System Embedding Lecture Behavior Model. In: Zaphiris, P., Ioannou, A. (eds) Learning and Collaboration Technologies. Novel Technological Environments. HCII 2022. Lecture Notes in Computer Science, vol 13329. Springer, Cham. </p>
+                <p> Siqi Sun, Yongqing Sun, Mitsuhiro Goto, Shigekuni Kondo, Dan Mikami, Susumu Yamamoto: Motor Learning based on Presentation of a Tentative Goal, ICMR '22: Proceedings of the 2022 International Conference on Multimedia Retrieval, pp.601-607</p>
+                <p>C.Takayama, M.Goto, S.Eitoku, H.Noto, R.Ishi, S.Ozawa, T.Nakamura: How People Distinguish Individuals from their Movements: Toward the Realization of Personalized Agents, The Ninth International Conference on Human-Agent Interaction(HAI2021), Online (2021.11).</p>
+                <p>M.Goto, A.Kashihara: Evaluating Visualization for Slide-Based Investigative Learning with Connection between Presentation Slides, The 18th International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2021), pp.235-242, Online (2021.10).</p>
+                <p>A.Miyake, M.Hirao, M.Goto, C.Takayama, M.Watanabe, and H.Minami. 2020. A Navigation Method for Visually Impaired People: Easy to Imagine the Structure of the Stairs. In The 22nd International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '20). Association for Computing Machinery, New York, NY, USA, Article 53, 1–4.(2020.10)</p>
+                <p>M.Goto, M.Yokoyama, Y.Matsuura: Impression Evaluation of Presentation by A Communication Robot in An Actual Exhibition, The 15th Annual ACM/IEEE International Conference on Human Robot Interaction(HRI2020), Cambridge, UK(2020.03)</p>
+                <p>A.Kashihara, T.Ishino, M.Goto.Robot Lecture for Enhancing Non-Verbal Behavior in Lecture, In Proceedings of The 20th International Conference on Artificial Intelligence in Education(AIED2019), Chicago, USA (2019.06)</p>
+                <p>M.Goto, T.Ishino, K.Inazawa, N.Matsumura, T.Nunobiki, A.Kashihara: Authoring Robot Presentation for Promoting Reflection on Presentation Scenario, The 14th Annual ACM/IEEE International Conference on Human Robot Interaction(HRI2019), Daegu, Korea (2019.03).</p>
+                <p>T.Ishino, M.Goto, A,Kashihara: A Robot for Reconstructing Presentation Behavior in Lecture, In Proceedings of The 6th International Conference on Human-Agent Interaction(HAI2018),Southampton, UK(2018.12)</p>
+                <p>T.Matsumoto, M.Goto, R.Ishii, T.Watanabe, T.Yamada, M.Imai:Where Should Robots Talk?: Spatial Arrangement Study from a Participant Workload Perspective, Proceedings of The 13th International Conference on Human Robot Interaction(HRI2018), Chicago, USA(2018.03).<p>
+								<p>M.Goto, A.Kashihara: Understanding Presentation Document with Visualization of Connections between Presentation Slides, Proceedings of 20th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems(KES2016),York, UK, Procedia Computer Science Vol.96, pp.1285–1293,  (2016.09).</p>
+								<p>M.Goto, H.Kimata, M.Toyoshi, T.Nishikiori, K.Moriwaki, K.Nakamura: A Wearable Action Support System for Business Use by Context-aware Computing based on Web Schedule, Proc. of International Symposium on Wearable Computers 2015 (ISWC2015), Osaka, Japan, pp.53-56 (2015.09).</p>
+								<p>M.Goto, T.Satou, S.Higashino: An accurate close-up shot detection method with parallel distributed processing, Proc. of IIEEJ Image Electronics and Visual Computing Workshop 2012, Kuchin, Malaysia (2012.11).</p>
+								<p>M.Goto, A. Kashihara, and S.Hasegawa: A Portable System for Reviewing Research Meeting, Proc. of World Conference on Educational Multimedia, Hypermedia, & Telecommunications (ED-MEDIA2009), Honolulu, Hawaii, pp.3381-3388, (2009.06).</p>
+								<p>M. Goto, A. Kashihara, and S. Hasegawa: PodReview: Portable Review of Research Meeting, Proc. of The 16th International Conference on Computers in Education (ICCE2008), Taipei, Taiwan, pp.407-408 (2008.10).</p>
 
+                <h2>メディア掲載</h2>
+                <p><a href="https://digital-signage.jp/express/19060/">デジタルサイネージTOMORROW: ロボティクス・サイネージが現場での説明やプレゼンを肩代わりする時代がいよいよ到来！(2019.02.01)</a></p>
+                <p><a href="http://www.ntticc.or.jp/ja/archive/works/communication-collecting/">InterCommunicationCenter《コミュニケーション採集》(2018.03)</a></p>
+                <p><a href="https://robotstart.info/2017/10/03/ceatec2017-ntt-toyota.html">NTTとトヨタがロボットで連携！会話ロボットと生活支援ロボットの協働による接客サービスをデモ展示(2017.10)</a></p>
+                <p><a href="https://robotstart.info/2017/02/14/ntt-rd-forum-2017.html">NTT R&Dフォーラム2017が開催、頭がピョコピョコ動く可愛いロボット「anone」や、AIエージェントの展示も(2017.02)</a></p>
+                <p><a href="https://www.nttcom.co.jp/comware_plus/solution/201607_2.html">NTTコムウェア | COMWARE PLUS | 開発者インタビュー：シャナイン&reg;シリーズの新たな取り組み「スケジューラーAI」AIで企業の困りごとを解決する(2016.02)</a></p>
+
+                <h2>講演</h2>
+                <p><a href="https://www.hcg-ieice.org/hcg-symposium/2019/program#B-4">HCGシンポジウム2019 特別セッションⅢ「デザイン思考で研究をメンタリングしてみる！」 (2019.12)</a></p>
+                <p><a href="https://www.urcf.jp/news/2430/">Ultra Reality Interface-WG セミナー「メディア＆ロボティクス」|
+                ロボットプレゼンテーションのためのオーサリングツール (2019.09)</a></p>
+
+                <h2>研究会</h2>
+                <p>後藤充裕, 内田聡一郎, 瀬下仁志, “オンラインコミュニケーションの体験向上に向けた主観感覚の体系化の検討”, 信学技報, vol. 122, no. 349, HCS2022-69, pp. 80-85, 2023年1月<p>
+                <p>江崎健司, 後藤充裕，平野貴也, 瀬下仁志, ”ウインドサーフィンにおける身体感覚再生シミュレータを用いた競技力向上のための初期検討", 情報処理学会 研究報告コンシューマ・デバイス＆システム（CDS）,2023-CDS-36(49),1-8 2023年1月</p>
+                <p>内田総一郎, 後藤充裕，瀬下仁志: 立体音響を活用したオンライン展示会における満足感・納得感の向上, 信学技報, vol. 122, no. 97, LOIS2022-8, pp. 24-29, 2022年7月.</p>
+                <p>高山千尋, 後藤充裕, 永徳真一郎, 石井亮, 能登肇, 小澤史朗, 中村高雄, 身体動作と個人識別との関係の分析：個性を持ったエージェントの実現に向けて, 信学技報, vol. 121, no. 438, HCS2021-62, pp. 7-12, 2022年3月.</p>
+                <p>島崎俊介，菅原歩夢，後藤 充裕，柏原昭博：ヒューマノイドロボットを用いたインタラクティブロボット講義システム，電子情報通信学会教育工学研究会，pp.97-102 (2022.03.04).</p>
+                <p>内田総一郎, 後藤充裕，瀬下仁志: オンラインコミュニケーションにおける立体音響を活用した満足感・納得感向上の検討, 信学技報, vol. 121, no. 423, MVE2021-88, pp. 255-260, 2022年3月.</p>
+                <p>梅津寛香, 後藤充裕, 柏原昭博 : スライドマップ構築支援とその評価, 2021年度教育システム情報学会学生研究発表会(関東地区), pp.57-58(2022.03.01).</p>
+                <p>菅原歩夢，後藤充裕，柏原昭博: 学習者状態に基づくインタラクティブなロボット講義システムとその評価，2019年度教育システム情報学会学生研究発表会(関東地区), pp.51-52 (2020.3.2).</p>
+                <p>菅原歩夢，後藤充裕，柏原昭博：シナリオ変更可能なロボット講義システム，電子情報通信学会 教育工学研究会 (ET)，信学技報，vol. 119，No. 236，ET2019-44，pp. 69-74 (2019.10)．</p>
+                <p>後藤充裕，石野達也，稲澤佳祐，松村成宗，布引純史，柏原昭博:聴衆のプレゼンテーション理解を促進するロボットの非言語動作の検証, 第82回 先進的学習科学と工学研究会(SIG-ALST)(2018.03)</p>
+                <p>石野達也，後藤充裕，柏原昭博：ロボットによるプレゼンテーション動作に着目した代講システム, 教育システム情報学会 （JSiSE）2017年度学生研究発表会(2018.03).</p>
+                <p>後藤充裕、松本猛、倉橋孝雄、布引純史、山田智広 : 移動型ロボットを活用した接客ロボットシステムの検討, 第100回オーディオビジュアル複合情報処理研究発表会(AVM-100)(2018.03).</p>
+                <p>後藤充裕，石野達也，稲澤佳祐，松村成宗，布引純史，柏原昭博：プレゼンタ動作を再現・再構成するロボットプレゼンテーションシステム, 教育システム情報学会 （JSiSE）2017年度 第５回研究会 Vol.32, No.5 pp.121-128(2017.01).</p>
+                <p>石野達也，後藤充裕，柏原昭博：ロボットを用いたプレゼンテーション代行による講義理解支援, HAIシンポジウム2017 P-23 (2017.12).</p>
+                <p>石野達也, 後藤充裕, 柏原昭博: 代講を目的としたロボットによるプレゼンテーション，人工知能学会 第81回 先進的学習科学と工学研究会 (SIG-ALST), SIG-ALST-B508-05, pp.26-29 (2017.11).</p>
+                <p>角田啓介, 後藤充裕, 北野孝俊, 中村浩司, 箕浦大祐: チャットボットを用いたリモートワーク支援手法の提案, 情報処理学会研究報告グループウェアとネットワークサービス, 2017-GN-100, pp.1-7 (2017.01)</p>
+                <p>後藤充裕，柏原昭博: スライド間の接続関係の可視化に基づくプレゼンテーションドキュメント理解支援, 電子情報通信学会教育工学研究会技術研究報告（信学技法）,ET2015-142, pp. 273-278 (2016.03).</p>
+                <p>後藤充裕, 錦織達也, 森脇康介, 中村浩司, 木全英明: 作業者視点の連続撮影映像を活用した作業記録自動生成システムの提案, 研究報告マルチメディア通信と分散処理, 2015-DPS-165, Vol.2, pp.1-6(2015.12)</p>
+                <p>森脇康介, 豊吉政彦, 錦織達也, 後藤充裕, 中村浩司, 木全英明: グラス型ウェアラブルデバイスとカラーコードによる資産管理システム試作に向けた検討,  電子情報通信学会技術研究報告(信学技報) MoNA2015-115, pp.41-44 (2015.05).</p>
+                <p>豊吉政彦, 後藤充裕, 錦織達也, 森脇康介, 中村浩司, 木全英明: ウェアラブルデバイスとスケジュール解析を用いたコンテクストアウェアな行動支援システムの提案, 電子情報通信学会技術研究報告(信学技報) MoNA2015-114, pp.15-20 (2015.03).</p>
+                <p>佐藤隆, 後藤充裕, 吉田大我, 東野豪:Python/Vk : 映像ハンドリング研究のためのプロトタイピング環境, 映像情報メディア学会技術報告, Vol.35, pp.9-12(2012.08).</p>
+                <p>後藤充裕, 佐藤隆, 東野豪 : 並列分散による映像イベント検出の高速化, 研究報告 オーディオビジュアル複合情報処理（AVM） 2012-AVM-76 Vol.2, pp.1-6(2012.02).</p>
+                <p>後藤充裕, 柏原昭博, 長谷川忍：研究ミーティングレビュー支援環境PodReviewの開発, 教育システム情報学会 学生・院生研究発表会論文集 (2008.03).</p>
+
+								<h2>全国大会・シンポジウム</h2>
+                <p>後藤充裕，江崎健司，井上照久，瀬下仁志，平野貴也, :ウインドサーフィンの身体感覚再現プレイヤーにおける筐体牽引力を増幅再現するデバイスの提案, 第9回スポーツパフォーマンス学会, 第9回スポーツパフォーマンス学会妙集 pp.14</p>
+                <p>籔内勉, 後藤充裕, 江崎健司, 瀬下仁志, HMDと物理アクチュエータを活用したウインドサーフィンシミュレータにおけるスピード体感の向上に関する検討, DICOMO2023, pp.227-232(2023.07.07-10)</p>
+                <p>菅原歩夢, 後藤充裕, 柏原昭博: インタラクティブなロボット講義の評価. HAIシンポジウム2021，P-4 (2021.03.09-10).</p>
+                <p>三宅明日香, 平尾美佐, 後藤充裕, 高山千尋, 南裕也: 階段の構造をイメージしやすくする視覚障がい者向けナビゲーションの検討，HCGシンポジウム2019  (2019.12.13).</p>
+                <p>後藤充裕, 横山正典, 松浦由美子: コミュニケーションロボットを用いた展示会プレゼンテーション代行の検討，HCGシンポジウム2019 (2019.12.12).</p>
+                <p>菅原歩夢，石野達也，後藤充裕，柏原昭博：インタラクティブ講義ロボットのための学習者状態推定，教育システム情報学会 第44回全国大会，pp.403-404 (2018.9.13).</p>
+                <p>石野達也,後藤充裕,柏原昭博：講師のプレゼンテーション動作に基づく講義代講ロボット，教育システム情報学会 第43回全国大会，pp.311-312, (2018.09.05)</p>
+                <p>石野達也，後藤充裕，柏原昭博：講師のプレゼンテーション動作に基づく講義代講ロボット，第43回教育システム情報学会全国大会（2018.9.4-7）</p>
+								<p>後藤充裕, 望月崇由, 布引純史: テキストチャットと音声対話の融合によるコミュニケーションチャネルに関する検討, ヒューマンインタフェースシンポジウム2017講演論文集(2017.09)</p>
+								<p>後藤充裕，柏原昭博 : Web 上のプレゼンテーションドキュメントを活用したスライド調べ学習，第42回教育システム情報学会全国大会予稿集，pp.389-390(2017.08).</p>
+								<p>吉岡駿, 松元崇裕, 岨野太一, 後藤充裕,今井倫太: 2体のロボットによる対話活性度の向上, 情報処理学会第79回全国大会講演論文集, Vol.1, pp.571-572(2017.03)</p>
+								<p>吉岡駿, 松元崇裕, 岨野太一, 後藤充裕,今井倫太: 2体のエージェントを用いることによる対話活性度の向上, HAIシンポジウム2016論文集(2016.12)</p>
+								<p>後藤充裕,柏原昭博: スライド間の接続関係の可視化に基づくプレゼンテーションドキュメント理解支援システムとその評価, 教育システム情報学会第41回全国大会 (2016.08).</p>
+								<p>後藤充裕, 中村浩司, 木全英明: TIM: モバイルメッセンジャーを活用したビジネスシーン向けミーティング管理エージェントの提案, 情報処理学会分散協調とモバイルシンポジウム2016論文集,DICOMO-2016, pp.1640-1647 (2016.07)</p>
+								<p>後藤充裕, 木全英明, 中村浩司: 日本語機能表現を用いたユーザのツイート発信意図の推定, 電子情報通信学会総合大会講演論文集 2015年_情報・システム(1), 60 (2015.02).</p>
+								<p>後藤充裕, 佐藤隆, 東野豪 :検出精度を維持した並列分散によるテロップ検出, 情報科学技術フォーラム講演論文集 Vol. 11, pp. 329-330(2012.08).</p>
+								<p>後藤充裕, 柏原昭博, 長谷川忍：ポータブルデバイスによるミーティングレビュー環境PodReviewとその評価, 教育システム情報学会第33回全国大会講演論文集, pp.120-121(2008.09)   </p>
+
+                <h2>特許出願</h2>
+
+                <a href="http://www.conceptsengine.com/patent/grant/inventor/%E5%BE%8C%E8%97%A4%E5%85%85%E8%A3%95">公開済み特許一覧</a>
+
+							</div>
+              	<h1>Related Link</h1>
+                <p><a href="https://yokoyama121.wixsite.com/yokoyama-portfolio">横山正典(Masanori Yokoyama).</a>
+                </p>
+						</div>
+
+
+
+						</div>
+
+					</div>
+				</div>
+		</section>
+		<!--
+		<section class="showcase">
+			<div class="showcase-wrap">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="device wp3">
+								<div class="device-content">
+									<div class="showcase-slider">
+										<ul class="slides" id="showcaseSlider">
+											<li>
+												<img src="img/screen1.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen2.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen3.jpg" alt="Device Content Image">
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h1>Showcase your Product or Service</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+							<blockquote class="team-quote">
+								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
+								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Peter Finlan</p>
+								<div class="logo-quote">
+									<a href="http://tympanus.net/codrops/"><img src="img/codrops-logo.png" alt="Codrops Logo"></a>
+								</div>
+							</blockquote>
+							<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="screenshots-intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Packed Full of Powerful Features</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+						<p><a href="#screenshots" class="arrow-btn">See the screenshots! <i class="fa fa-long-arrow-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="screenshots" id="screenshots">
+			<div class="container-fluid">
+				<div class="row">
+					<ul class="grid">
+						<li>
+							<figure>
+								<img src="img/01-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/01.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>Optimised For Design</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/02-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/02.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>User Centric Design</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/03-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/03.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>Responsive and Adaptive</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/04-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/04.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>Absolutely Free</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<ul class="grid">
+						<li>
+							<figure>
+								<img src="img/05-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/05.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>Multi-Purpose Design</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/06-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/06.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>Exclusive to Codrops</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/07-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/07.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>Made with Love</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/08-screenshot.jpg" alt="Screenshot 01">
+								<figcaption>
+								<div class="caption-content">
+									<a href="img/large/08.jpg" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<p>In Sydney, Australia</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="download" id="download">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center wp4">
+						<h1>Seen Enough?</h1>
+						<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h1 class="footer-logo">
+						<img src="img/logo-blue.png" alt="Footer Logo Blue">
+						</h1>
+						<p>© Mitsuhiro GOTO 2022 - <a href="http://wlgate.inf.uec.ac.jp/">Licence</a> - Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
+					</div>
+					<div class="col-md-7">
+						<ul class="footer-nav">
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#publications">Publications</a></li>
+<!--
+							<li><a href="#screenshots"></a></li>
+							<li><a href="#download">Download</a></li>
+						-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="overlay overlay-boxify">
+			<nav>
+				<ul>
+					<li><a href="#about"><i class="fa fa-heart"></i>About Me</a></li>
+					<li><a href="#publications"><i class="fa fa-files-o"></i>Publications</a></li>
+				</ul>
+				<!--
+				<ul>
+					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Screenshots</a></li>
+					<li><a href="#download"><i class="fa fa-download"></i>Download</a></li>
+				</ul>
+			-->
+			</nav>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/min/toucheffects-min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/flickity.pkgd.min.js"></script>
+		<script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/retina.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/min/scripts-min.js"></script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+	</body>
 </html>
